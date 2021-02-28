@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<!--Thanks for taking the time to read my code!-->
+<html lang="en">
+	<head>
+		<title>Jeffrey Riley-Loy - Personal Information</title>
+		<meta charset="utf-8">
+		<script src="scripts/index.js"></script>
+		<link rel="stylesheet" href="scripts/index.css">
+	</head>
+	<body onload ="startup()">
+		<div id="wrapper">
+			<header>
+				<h1>Jeffrey Riley-Loy</h1>
+				<nav id = "nav" onclick = "navButton()">
+					<p>Navigation</p>
+				</nav>
+			</header>
+				<div id = "navContent">
+				<ul>
+					<li class = "home" id = "buttonImage" onclick = "location.href='index.html';">Home</li>
+					<li class = "navButton" id = "buttonImage" onclick = "location.href='info.html';">Personal Information</li>
+					<li class = "navButton" id = "buttonImage" onclick = "location.href='resume.html';">Resume & Certifications</li>
+					<li class = "navButton" id = "buttonImage" onclick = "location.href='projects.html';">Projects</li>
+					<li class = "navButton" id = "buttonImage" onclick = "location.href='contact.html';">Contact Me</li>
+				</ul>
+				</div>
+			<div id="content">
+				<div id = "bar1">
+					<img src="images/me.jpg" alt="An image of me. Note the award-winning ears.">
+				</div>
+				<div id = "bar2">
+					<p id = "barTitle">Jeffrey Riley Loy</p>
+				</div>
+				<div id = "bar1">
+					<p id = "barTitle">About me</p>
+					<p id = "barDesc">
+						Salutations, my name is Jeffrey Riley-Loy!
+						<br>
+						<br>
+						I was born in the city of Kealekekua, on the big island of Hawaii, where I spent my early childhood. Since then, I've moved around America, living in Colorado, Las Vegas, and Ohio before moving to the small town of Stayton Oregon, where I attended Chemeketa Community College. I now attend Fort Hayes State University as an online student.
+						<br>
+						<br>
+						With graduation I have become prepared to enter the modern world as an independent American citizen armed with all the skills and knowledge that comes with the years of schooling I've received, and I represent this education with an Associate's Degree of Applied Science.
+						<br>
+						<br>
+						In my spare time I dabble in amateur game design, creating and developing resources for traditional board and video games. Over the past three years I've been the leader for a wonderful small tabletop role-playing group in my town where I've been responsible for the creation and acquisition of new assets for the group, and in managing the schedules and experiences of all group members. Now I'm in more of a support role, assisting primarily in a consulting role.
+					</p>
+				</div>
+				<div id = "bar1" onclick = "location.href='contact.html';">
+					<div id = "barTitle"><br>Get In Touch</div>
+					<div id = "barButton">Contact Me</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

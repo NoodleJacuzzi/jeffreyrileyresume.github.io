@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<!--Thanks for taking the time to read my code!-->
+<html lang="en">
+	<head>
+		<title>Jeffrey Riley-Loy - Projects List</title>
+		<meta charset="utf-8">
+		<script src="scripts/index.js"></script>
+		<link rel="stylesheet" href="scripts/index.css">
+	</head>
+	<body onload ="startup()">
+		<div class="bg"></div>
+		<div id="wrapper">
+			<header>
+				<h1>Jeffrey Riley-Loy</h1>
+				<nav id = "nav" onclick = "navButton()">
+					<p>Navigation</p>
+				</nav>
+			</header>
+				<div id = "navContent">
+					<ul>
+						<li class = "home" id = "buttonImage" onclick = "location.href='index.html';">Home</li>
+						<li class = "navButton" id = "buttonImage" onclick = "location.href='info.html';">Personal Information</li>
+						<li class = "navButton" id = "buttonImage" onclick = "location.href='resume.html';">Resume & Certifications</li>
+						<li class = "navButton" id = "buttonImage" onclick = "location.href='projects.html';">Projects</li>
+						<li class = "navButton" id = "contactButton" onclick = "location.href='contact.html';">Contact Me</li>
+					</ul>
+				</div>
+			<div class="projectWrapper">
+				<div class="projectDiv" onclick='button("systems")'>
+					<p class="projectName">Systems Analysis</p>
+					<img class="projectImage" src="images/systemsAnalysis.jpg">
+				</div>
+				<div class="projectDiv" onclick='button("web")'>
+					<p class="projectName">Web Development</p>
+					<img class="projectImage" src="images/webDevelopment.jpg">
+				</div>
+				<div class="projectDiv" onclick='button("database")'>
+					<p class="projectName">Database Management</p>
+					<img class="projectImage" src="images/databaseManagement.jpg">
+				</div>
+				<div class="projectDiv" onclick='button("javascript")'>
+					<p class="projectName">Javascript Projects</p>
+					<img class="projectImage" src="images/cardgame.png">
+				</div>
+				<div class="projectDiv" onclick='button("cSharp")'>
+					<p class="projectName">C# Project</p>
+					<img class="projectImage" src="images/cSharp2.jpg">
+				</div>
+				<div class="projectDiv" onclick = "location.href='art.html';">
+					<p class="projectName">Art Gallery</p>
+					<img class="projectImage" src="images/night.jpg">
+				</div>
+			</div>
+			<div id="output">
+			</div>
+		</div>
+	</body>
+</html>

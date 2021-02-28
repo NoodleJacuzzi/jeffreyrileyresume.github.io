@@ -1,0 +1,181 @@
+/*General elements style  */
+header {
+	text-align: center;
+	margin: auto;
+	background-color: white;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	text-align: center;
+	background-color: white;
+}
+h2{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 50px;
+}
+img{
+	display: block;
+	margin: auto;
+}
+#wrapper {
+	background-image: url("../images/bg.jpg");
+	min-height: 300px; 
+	margin-top: 0px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -2;
+}
+#buttonImage {
+	background-image: linear-gradient(white, blue);
+}
+#buttonImage:active {
+	background-image: linear-gradient(white, purple);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/*Nav menu style */
+nav {
+	font-size: 150%;
+	display: block;
+	text-align: center;
+  	border-radius: 5px;
+	border: 3px black solid;
+  	border-radius: 5px;
+	padding: 0px;
+	margin: 0px;
+}
+#navContent {
+	display: block;
+	height: 250px;
+}
+ul {
+	font-size: 150%;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	padding-left: 0px;
+	cursor: pointer;
+}
+.home {
+	box-sizing: border-box;
+	width: 99%;
+	margin: .5%;
+	height: 100px;
+	text-align: center;
+	border: 3px black solid;
+  	border-radius: 5px;
+}
+.navButton {
+	box-sizing: border-box;
+	float: left;
+	width: 24%;
+	height: 100px;
+	margin: .5%;
+	text-align: center;
+	border: 3px black solid;
+  	border-radius: 5px;
+	background-image: linear-gradient(white, blue);
+}
+
+/*3-Row style */
+.projectWrapper {
+	height: 720px;
+	width: 60%;
+	margin: auto;
+}
+.projectDiv {
+	font-size: 150%;
+	box-sizing: border-box;
+	float: left;
+	height: 350px;
+	width: 33%;
+	margin: .11%;
+	text-align: center;
+	border: 3px black solid;
+  	border-radius: 5px;
+	background-color: white;
+}
+.projectDesc {
+	padding: 5px;
+}
+.projectImage {
+	width: 100%;
+	max-height: 230px;
+}
+
+/*Bar style */
+#bar1 {
+	font-size: 150%;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: white;
+	min-height: 200px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+#bar2 {
+	font-size: 150%;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 200px;
+}
+#barTitle {
+	padding: 10px;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-size: 2em;
+	font-weight: bold;
+}
+#barDesc {
+	padding: 10px;
+	width: 50%;
+	margin: auto;
+}
+#barPicture {
+	display: block;
+	margin: auto;
+	width: 50%;
+	max-height: 800px;
+}
+#barButton {
+	text-align: center;
+	width: 20%;
+	color: white;
+	background-color: black;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+#barButton:active {
+	text-align: center;
+	width: 10%;
+	color: black;
+	background-color: grey;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}

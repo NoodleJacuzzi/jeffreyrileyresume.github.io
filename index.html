@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!--Thanks for taking the time to read my code!-->
+<html lang="en">
+	<head>
+		<title>Jeffrey Riley-Loy</title>
+		<meta charset="utf-8">
+		<script src="scripts/index.js"></script>
+		<link rel="stylesheet" href="scripts/index.css">
+	</head>
+	<body onload="homeStartup()">
+		<div id="wrapper">
+			<header>
+				<h1>Jeffrey Riley-Loy</h1>
+				<h2 id="name">Welcome to Jeffrey Riley-Loy's E-portfolio. Would you care to enter your name?</h2>
+			</header>
+			<div id="content">
+				<div id = "bar2">
+					<div id = "barTitle"><input type="text" id="nameSubmission" value=""></div>
+					<div id = "barButton" onclick = "saveName()">Save my name.</div>
+				</div>
+				<div id = "bar1">
+					<div id = "barTitle">Personal Information</div>
+					<div id = "barButton" onclick = "location.href='info.html'">Learn about me.</div>
+				</div>
+				<div id = "bar2">
+					<div id = "barTitle">Resume and Certifications</div>
+					<div id = "barButton" onclick = "location.href='resume.html'">Learn about my qualifications.</div>
+				</div>
+				<div id = "bar1">
+					<div id = "barTitle">Projects</div>
+					<div id = "barButton" onclick = "location.href='projects.html'">Learn about my skillset.</div>
+				</div>
+				<div id = "bar2">
+					<div id = "barTitle">Contact Me</div>
+					<div id = "barButton" onclick = "location.href='contact.html'">Find my contact information.</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
